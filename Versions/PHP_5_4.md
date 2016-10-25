@@ -31,7 +31,7 @@
 10. Turning **`NULL`**, **`FALSE`**, or an **`empty`** string into an object by adding a property will now emit an *`E_WARNING`* level error, instead of *`E_STRICT`*;
 11. **`foo($_GET, $_POST) {}`** calls fatal error. Parameter names that shadow super globals not allowed;
 12. The `Salsa10` and `Salsa20` hash algorithms have been removed;
-13. **`array_combine([], [])`** for <PHP5.4 issued _`E_WARNING`_ and returned _`FALSE`_. >PHP5.4 result === **`[]`**
+13. **`array_combine([], [])`** for PHP5.4- issued _`E_WARNING`_ and returned _`FALSE`_. PHP5.4+ result === **`[]`**
 14. If you use **`htmlentities()`** with asian character sets, it works like **`htmlspecialchars()`** - this has always been the case in previous versions of PHP,
     but now an _`E_STRICT`_ level error is emitted;
 15. The third parameter of **`ob_start()`** has changed from boolean erase to integer flags;
