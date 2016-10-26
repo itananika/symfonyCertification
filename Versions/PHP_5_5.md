@@ -4,7 +4,12 @@
 3. Added **`password_hash()`** (New password hashing)
 4. `foreach` now supports **`list()`**: <blockquote> foreach ($array as list($a, $b)) {} <blockquote>
 5. Passing an arbitrary expression instead of a variable to **`empty()`** is now supported;
-6. array and string literal dereferencing: <blockquote> echo [1, 2, 3][0] . 'PHP'[0]; <blockquote>
+6. array and string literal dereferencing: 
+    ```php 
+        <?php 
+            echo [1, 2, 3][0] . 'PHP'[0]; 
+        ?>
+    ```
 7. Class name resolution via `::class`;
 8. OPcache extension added(like APC);
 9. `foreach` now supports non-scalar keys;
