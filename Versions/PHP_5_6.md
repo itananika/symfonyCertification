@@ -96,7 +96,8 @@ class C {
        [3]=>
            string(4) "quux"
     }
->
+
+
 2. **`json_decode()`** now rejects non-lowercase variants of the JSON literals `true`, `false` and `null`;
 3. Stream wrappers now verify peer certificates and host names by default when using (SSL/TLS );
 4. GMP resources are now objects(GNU Multiple Precision);

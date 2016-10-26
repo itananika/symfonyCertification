@@ -31,26 +31,22 @@ The precedence order is that members from the current class override Trait metho
             echo 'Hello ';
         }
     }
-    
     trait SayWorld {
         public function sayHello() {
             parent::sayHello();
             echo 'World!';
         }
     }
-    
     class MyHelloWorld extends Base {
         use SayWorld;
     }
-    
     $o = new MyHelloWorld();
     $o->sayHello();
 ?>
 ```
-output
->   
-    Hello World!
->
+Output
+
+>   Hello World!
 
 ###3. Conflict Resolution 
 If two Traits insert a method with the same name, a fatal error is produced, if the conflict is not explicitly resolved.
