@@ -132,29 +132,33 @@
 17. Expect. FAM monitors files and directories, notifying interested applications of changes
 18. FAM
 19. FDF. Forms Data Format (FDF) is a format for handling forms within PDF documents
-20. filePro
+20. filePro. These functions allow read-only access to data stored in filePro databases.
+    This extension has been moved to the » PECL repository and is no longer bundled with PHP as of PHP 5.2.0.
 21. FriBiDi
 22. Gearman
 23. Gender
 24. GeoIP
-25. Gmagick
+25. Gmagick. to create, modify and obtain meta information of images using the GraphicsMagick API.
 26. GnuPG
-27. Gupnp
-28. haru
-29. htscanner
-30. Hyperwave API
-31. IBM DB2
-32. ID3
+27. Gupnp. GUPnP is an object-oriented open source framework for creating UPnP devices and control points
+28. haru. libHaru is a free, cross platform, and Open Source library for generating PDF files. This extension is EXPERIMENTAL
+29. htscanner. The htscanner extension gives the possibility to use htaccess-like file to configure PHP per directory, 
+    just like apache's htaccess. It is especially useful with fastcgi
+30. Hyperwave API. Hyperwave is an information system similar to a database (HIS, Hyperwave Information Server).
+    Its focus is the storage and management of documents. This extension has been moved to the » PECL repository and is no longer bundled with PHP as of PHP 5.2.0.
+31. IBM DB2. These functions enable you to access IBM DB2 Universal Database, IBM Cloudscape, and Apache Derby databases using the DB2 Call Level Interface
+32. ID3. read and manipulate ID3 tags. ID3 tags are used in MP3 files to store title of the song
 33. IIS
 34. ImageMagick
 35. inclued
-36. Ingres
-37. Inotify
-38. Judy
+36. Ingres. The Ingres driver for PHP enables you to connect to and query the Ingres DBMS, EDBC, and Enterprise Access Gateways.
+    is no longer bundled with PHP as of PHP 5.1.0.
+37. Inotify. The inotify extension exposes the inotify functions 
+38. Judy. A Judy array is a complex but very fast associative array data structure for storing and looking up values using integer or string keys
 39. KADM5
-40. KTaglib
+40. KTaglib. read and write ID3 and Ogg tags
 41. Lapack
-42. Libevent
+42. Libevent. provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached.
 43. Lua
 44. LZF
 45. Mailparse
@@ -163,26 +167,28 @@
 48. Memcache
 49. Memcached
 50. Memtrack
-51. Mimetype
-52. Ming
+51. Mimetype. the same as Fileinfo 
+52. Ming. Ming is an open-source (LGPL) library which allows you to create SWF ("Flash") format movies
 53. mnoGoSearch
 54. Mongo
 55. mqseries
-56. Msession
+56. Msession. is an interface to a high speed session daemon which can run either locally or remotely.
+    is no longer bundled with PHP as of PHP 5.1.3
 57. mysqlnd_memcache
 58. mysqlnd_ms
-59. mysqlnd_mux
+59. mysqlnd_mux, Mysqlnd connection multiplexing plugin
 60. mysqlnd_qc
 61. mysqlnd_uh
 62. Ncurses
 63. Gopher
-64. Newt
-65. YP/NIS
+64. Newt. This is a PHP language extension for RedHat Newt library, 
+    a terminal-based window and widget library for writing applications with user friendly interface
+65. YP/NIS stopped on PHP 5.1.0.
 66. OAuth
-67. oggvorbis
-68. OpenAL
-69. Paradox
-70. Parsekit
+67. oggvorbis. is a scheme for compressing audio streams by multiple factors with a minimum of quality loss
+68. OpenAL. Platform independent audio bindings
+69. Paradox. This module allows to read and write Paradox databases
+70. Parsekit. These functions allow runtime analysis of opcodes compiled from PHP scripts.
 71. PDF
 72. 4D (PDO)
 73. CUBRID (PDO)
@@ -190,25 +196,25 @@
 75. Informix (PDO)
 76. MS SQL Server (PDO)
 77. Proctitle
-78. PS
+78. PS. PostScript document creation 
 79. pthreads
 80. Quickhash
 81. Radius
 82. Rar
 83. RPM Reader
 84. RRD
-85. runkit
-86. SAM
+85. runkit. The runkit extension provides means to modify constants, user-defined functions, and user-defined classes. 
+86. SAM. Simple Asynchronous Messaging
 87. SCA
-88. scream
-89. SDO
+88. scream. Break the silence operator
+89. SDO. ervice Data Objects (SDOs) enable PHP applications to work with data from different sources
 90. SDO DAS XML
 91. SDO-DAS-Relational
 92. Session PgSQL
 93. Solr
 93. Sphinx
 94. SPL Types
-95. SPPLUS
+95. SPPLUS. SPPLUS Payment System ¶
 96. SQLite
 97. SQLSRV
 98. ssdeep
